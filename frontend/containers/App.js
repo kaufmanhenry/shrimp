@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
+import ListItem from '../components/ListItem';
+
 class App extends Component {
   render() {
     return (
-      <h1>Hello</h1>
+      <ListItem name="Hello" email="hello@example.com" />
     );
   }
 }
