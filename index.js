@@ -19,7 +19,13 @@ app.use(webpackDevMiddleware(compiler, {
 }));
 app.use(webpackHotMiddleware(compiler));
 
+// Require the backend
+app.use('/api', require('./backend/index'));
+
+// Serve all static files
 app.get('*', (req, res) => res.sendFile(path.join(`${__dirname}/dist/index.html`)));
 
-app.listen(3000);
-console.info('==> 🌎  Listening on port 3000. Open up http://localhost:3000/ in your browser.');
+// Start the server
+app.listen(3000, () => {
+  console.info('==> 🌎  Listening on port 3000. Open up http://localhost:3000/ in your browser.');
+});
