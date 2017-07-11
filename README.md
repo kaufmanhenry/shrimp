@@ -1,6 +1,8 @@
 # shrimp 🦐
 A hyper-minimal react redux boilerplate, focused on nice async actions.
 
+[Demo](https://shrimp-nzhlugodli.now.sh)
+
 ### Tech Used 🔧
 - [React](http://facebook.github.io/react)
 - [Redux](http://redux.js.org)
