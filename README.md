@@ -19,3 +19,6 @@ git clone https://github.com/hcjk/shrimp.git
 cd shrimp
 yarn && yarn start
 ```
+
+### License
+Copyright (c) 2017 Henry Kaufman, licensed under the MIT license. See [LICENSE](https://github.com/hcjk/micro-slack-auth/blob/master/LICENSE) for more information.
