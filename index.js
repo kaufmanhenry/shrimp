@@ -7,6 +7,8 @@ const config = require('./webpack.config');
 const path = require('path');
 const express = require('express');
 
+require('dotenv').config({ path: '.env' });
+
 // Setup express
 const app = express();
 app.set('router', express.Router);
