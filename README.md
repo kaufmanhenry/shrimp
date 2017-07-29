@@ -26,7 +26,7 @@ yarn && yarn dev
 ```shell
 git clone https://github.com/hcjk/shrimp.git
 cd shrimp
-yarn && yarn run build && yarn start
+yarn && yarn start
 ```
 
 ### License
