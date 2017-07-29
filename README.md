@@ -19,6 +19,13 @@ In addition, I wanted to create a flexible boilerplate that allowed me to incorp
 ```shell
 git clone https://github.com/hcjk/shrimp.git
 cd shrimp
+yarn && yarn dev
+```
+
+### Production 🛢️
+```shell
+git clone https://github.com/hcjk/shrimp.git
+cd shrimp
 yarn && yarn start
 ```
 
